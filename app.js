@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Redirect root to
 app.get('/', (req, res) => {
-  res.send('<h1>Hello, this is a sample app!</h1> <br> <p>Fetch users from the database by visiting <a href="/users">users</a><p> <br> update from jenkins.');
+  res.send('<h1>Hello, this is a sample app!</h1> <br> <p>Fetch users from the database by visiting <a href="/users">users</a><p> <br> update from jenkins 2.');
 });
 
 app.get('/users', (req, res) => {
